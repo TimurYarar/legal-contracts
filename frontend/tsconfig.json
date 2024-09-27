@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Додає підтримку JSX
+    "esModuleInterop": true, // Вирішує проблеми з модулями
+    "allowSyntheticDefaultImports": true, // Дозволяє імпортувати JSX
+    "moduleResolution": "node", // Для коректного імпорту модулів
+    "target": "ES6", // Вибираємо цільову версію JavaScript
+    "module": "ESNext", // Дозволяє використовувати сучасний імпорт
+    "strict": true, // Включає строгі перевірки
+    "baseUrl": "./src", // Вказує базовий шлях
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build"]
+}
